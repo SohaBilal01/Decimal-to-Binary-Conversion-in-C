@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+    int num,a,s,d;
+    printf("enter a number between 1 and 31: \n");
+    scanf("%d",&num);
+    printf("%d is equal to ",num);
+    a=num%8;
+    num=num/8;
+    s=num%8;
+    num=num/8;
+    printf("%d%d",s,a);
+}
